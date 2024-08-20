@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(134, 243, 198);
+}
+
+.small {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 800px;
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+}
+
+#big-image {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+#big-image1 {
+    width: 250px;
+    height: 150px;
+}
+
+#big-image2 {
+    width: 250px;
+    height: 150px;
+}
+
+#big-image3 {
+    width: 250px;
+    height: 150px;
+}
+
+.bout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#avance {
+    height: 30px;
+    width: 50px;
+}
+
+#recule {
+    height: 30px;
+    width: 50px;
+}

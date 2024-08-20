@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+    position: relative;
+    left: 100px;
+}
+
+.logo {
+    width: 70px;
+    height: 15px;
+    position: relative;
+    top: 19px;
+}
+
+ul a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 17px 0 0;
+    color: rgb(100, 99, 99);
+    font-size: 12px;
+}
+
+a:hover {
+    color: black;
+}
+
+.val {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-login {
+    background-color: white;
+    border: none;
+    border-radius: 45px;
+    color: rgb(13, 172, 34);
+    padding: 8px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px 10px 3px 10px;
+}
+
+.btn-sign {
+    background-color: white;
+    border-radius: 45px;
+    color: rgb(13, 172, 34);
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px 10px 3px 10px;
+    border-color: rgb(13, 172, 34);
+    border: solid 1px;
+}
+
+.btn-login:hover {
+    background-color: rgb(13, 172, 34);
+    color: white;
+    border-color: rgb(13, 172, 34);
+    border: solid 1px;
+}
+
+.btn-sign:hover {
+    background-color: rgb(13, 172, 34);
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+
+.illustration {
+    width: 200px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(13, 172, 34);
+    position: relative;
+    top: -30px;
+}
+
+.header-text {
+    width: 355px;
+}
+
+.paragraphe {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: rgb(75, 74, 74);
+    position: relative;
+    top: -45px;
+}
+
+.btn {
+    background-color: rgb(13, 172, 34);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px 14px 6px 14px;
+    position: relative;
+    top: -35px;
+}
+
+.big-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div1 {
+    background-color: rgb(13, 172, 34);
+    width: 115px;
+}
+
+.fater-header {
+    text-align: center;
+    width: 610px;
+    position: relative;
+    left: 100px;
+    top: 35px;
+}
+
+.para {
+    font-size: 11px;
+    color: rgb(75, 74, 74);
+    position: relative;
+    top: -13px;
+}
+
+.services {
+    display: flex;
+    width: 610px;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+    top: 35px;
+}
+
+.image-service {
+    width: 20px;
+    height: 20px;
+}
+
+.manage-title {
+    width: 610px;
+    position: relative;
+    left: 100px;
+    text-align: center;
+}
+
+.manage-title>h3 {
+    font-size: 18px;
+    width: 260px;
+    position: relative;
+    left: 175px;
+}
+
+.manages {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 610px;
+    position: relative;
+    left: 100px;
+}
+
+.mini-manage {
+    text-align: center;
+    width: 150px;
+}
